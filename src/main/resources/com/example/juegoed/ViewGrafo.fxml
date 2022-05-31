@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.juegoed.ControllerView">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <StackPane prefHeight="328.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Pane prefHeight="200.0" prefWidth="200.0">
+                    <children>
+                        <Pane layoutX="3.0" prefHeight="557.0" prefWidth="594.0">
+                            <children>
+                        <ImageView fx:id="ImagenGrafo" fitHeight="519.0" fitWidth="562.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@grafo2.jpg" />
+                           </image>
+                        </ImageView>
+                                <Button fx:id="Azul2" layoutX="348.0" layoutY="2.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="0.0" style="-fx-background-radius: 100;" text="2" />
+                        <TextField fx:id="Azul23" layoutX="331.0" layoutY="33.0" prefHeight="25.0" prefWidth="31.0" />
+                        <Button fx:id="Azul3" layoutX="325.0" layoutY="65.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="0.0" style="-fx-background-radius: 100;" text="3" />
+                        <Button fx:id="Azul4" layoutX="337.0" layoutY="131.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="0.0" style="-fx-background-radius: 100;" text="4" />
+                        <Button fx:id="Azul5" layoutX="441.0" layoutY="131.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="0.0" style="-fx-background-radius: 100;" text="5" />
+                        <Button fx:id="Azul6" layoutX="452.0" layoutY="65.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="0.0" style="-fx-background-radius: 100;" text="6" />
+                        <Button fx:id="Azul1" layoutX="441.0" layoutY="2.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="0.0" style="-fx-background-radius: 100;" text="1" />
+                        <TextField fx:id="Azul12" alignment="CENTER" layoutX="391.0" layoutY="2.0" prefHeight="25.0" prefWidth="31.0" />
+                        <TextField fx:id="Azul61" layoutX="449.0" layoutY="33.0" prefHeight="25.0" prefWidth="31.0" />
+                        <TextField fx:id="Azul56" layoutX="443.0" layoutY="98.0" prefHeight="25.0" prefWidth="31.0" />
+                        <TextField fx:id="Azul45" layoutX="391.0" layoutY="131.0" prefHeight="25.0" prefWidth="31.0" />
+                        <TextField fx:id="Azul34" layoutX="334.0" layoutY="98.0" prefHeight="25.0" prefWidth="31.0" />
+                        <Button layoutX="41.0" layoutY="33.0" mnemonicParsing="false" onAction="#iniciar" text="iniciar" />
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </children>
+        </StackPane>
+    </center>
+</BorderPane>
